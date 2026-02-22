@@ -1,4 +1,11 @@
-n = 7
-if n%2 == 0:
-    print ("четное")
-else: print ("не четное")
+number = int(input('Введите число: '))
+if number % 2 == 0 and number > 0:
+    print ("число положительное, четное")
+if number % 2 == 0 and number < 0:
+        print ("число отрицательное, четное")
+if not number % 2 == 0 and number > 0:
+    print ("число положительное, нечетное")
+if not number % 2 == 0 and number < 0:
+    print ("число отрицательное, нечетное")
+if number == 0:
+    print ("число равно нулю")
